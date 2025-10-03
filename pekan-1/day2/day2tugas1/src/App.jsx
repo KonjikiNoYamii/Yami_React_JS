@@ -9,7 +9,7 @@ function App() {
           alt=""
           width={"500px"}
           height={"700px"}
-          style={{ marginLeft: "220px" }}
+          style={{ marginLeft: "220px" }}  
         />
         <h2 style={{ textAlign: "center" }}>Herta</h2>
         <p>
