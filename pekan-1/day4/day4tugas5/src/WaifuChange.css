@@ -1,0 +1,27 @@
+.responsive-box {
+  background-image: url("https://i.pinimg.com/736x/65/b8/87/65b887f94bdecc6b7e5a0502dcaf3b60.jpg"); /* 🌸 Default (square) */
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  width: 600px;
+  border-radius: 20px;
+  transition: all 0.3s ease-in-out;
+}
+
+/* 💻 Tampilan Desktop (landscape) */
+@media (min-width: 768px) {
+  .responsive-box {
+    background-image: url("https://i.pinimg.com/736x/4c/4e/c8/4c4ec8ae9639b14f06eac0fa0047254a.jpg"); /* 🌼 Landscape - elegan */
+  }
+}
+
+/* 📱 Tampilan Mobile (portrait) */
+@media (max-width: 767px) {
+  .responsive-box {
+    background-image: url("https://i.pinimg.com/1200x/a6/cc/55/a6cc55e8a3f50d2fe41619cfd9e0a5f3.jpg"); /* 💖 Portrait - imut */
+    height: 320px;
+    width: 90%;
+    border-radius: 15px;
+    margin: 20px auto;
+  }
+}
