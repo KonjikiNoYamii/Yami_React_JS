@@ -38,6 +38,7 @@ export default function ContactForm() {
         onChange={handleChange}
       />
       <button type="submit">Submit</button>
+      <p>{JSON.stringify(getData)}</p>
     </form>
   );
 }
