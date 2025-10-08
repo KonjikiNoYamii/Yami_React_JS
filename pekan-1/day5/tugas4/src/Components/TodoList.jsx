@@ -9,7 +9,7 @@ export default function TodoList() {
         if(newTodosText.trim() === "") return
 
         const newTodo ={ // setiap event submit akan menambahkan variabel baru
-            id:Date.now(),
+            id:Date.now(), //krusial
             text: newTodosText // memprint text.. text diambil dari value input
         }
         setTodos((prevTodos) => [...prevTodos, newTodo]) // menambahkan nilai awal todos dengan variabel newTodo
@@ -17,13 +17,12 @@ export default function TodoList() {
     }
     const deleteTodo = (id) =>{
         setTodos((prevTodos) => prevTodos.filter((todo) =>todo.id !== id))
-                                                           //
     }
     return(
         <div>
             <h2>TodoList</h2>
             <form onSubmit={addTodos}>
-                <input type="text" value={newTodosText} onChange={(e) => setNewTodosText(e.target.value)} />
+                <input type="text" value={newTodosText} onChange={(e) => setNewTodosText(e.target.value)} /> {/** menggunakan setNewTodosText karena akan mengambil value newTodosText */}
                 <button type="submit">Tambah</button>
             </form>
             <ul>
