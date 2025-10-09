@@ -67,8 +67,8 @@ export default function App() {
         onMouseDown={handleMouseDown}
         onSubmit={handleSubmit}
       >
-        <p style={{textAlign:"end", color:"black"}}>drag</p>
-        <h2 style={{letterSpacing:"2px"}}>FORM LOGIN</h2>
+        <p style={{ textAlign: "end", color: "black" }}>&gt; &lt;</p>
+        <h2 style={{ letterSpacing: "2px" }}>FORM LOGIN</h2>
 
         <label htmlFor="namaUser">Username</label>
         <input
