@@ -1,10 +1,10 @@
 import { useState } from "react";
 import StatusMessage from "./components/StatusMessage";
 export default function App() {
-  const [status, setStatus] = useState("loading")
+  const [status, setStatus] = useState("")
 
   const changeStatus = () => {
-    const allStatus = ["loading","error","succes"]
+    const allStatus = ["error","succes","loading"]
 
     const nextIndex = (allStatus.indexOf(status)+1) % allStatus.length
 

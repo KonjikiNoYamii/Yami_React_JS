@@ -7,7 +7,6 @@ export default function App() {
   ] 
   return(
     <div>
-
       <RenderList list={adaKegiatan}/>
     </div>
   )

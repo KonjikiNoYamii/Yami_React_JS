@@ -11,6 +11,8 @@ export default function StatusMessage({ status }) {
     case "succes":
       tumbal = "berhasil";
       break;
+          default:
+      tumbal = <p>Status tidak diketahui.</p>;
   }
 
   return(
