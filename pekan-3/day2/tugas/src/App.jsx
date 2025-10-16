@@ -16,9 +16,9 @@ export default function App() {
       <PortDisplay />
       <h3>soal 3</h3>
       <CounterDisplay />
-      <h1>soal 4</h1>
+      <h3>soal 4</h3>
       <FormInput />
-      <h4>soal 5</h4>
+      <h3>soal 5</h3>
       <ThemeSwitcher />
     </div>
   )
