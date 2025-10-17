@@ -12,7 +12,7 @@ export default function ParentTheme() {
 
   return (
     <div>
-      <ChildTheme theme={theme} />
+      <ChildTheme theme={theme}  />
       <h2>{count}</h2>
 
       <button onClick={handleThemeChange}>
