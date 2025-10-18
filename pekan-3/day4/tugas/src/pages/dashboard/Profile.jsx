@@ -18,7 +18,7 @@ export default function Profile() {
   return (
     <div className="profile-container" style={{backgroundColor:theme === "light"?"white":"black"}}>
       <div className="profile-card">
-        <img src="/pp.jpeg" alt="profile" className="profile-img" />
+        <img src="/pp.jpeg" alt="" className="profile-img" />
         <div className="profile-info">
           <p className="label">Username</p>
           <p className="value">{nama}</p><br />
