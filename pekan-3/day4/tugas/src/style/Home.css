@@ -1,0 +1,50 @@
+/* Home.css */
+.home-container {
+  text-align: center;
+  padding: 60px 20px; /* lebih luas */
+  background-color: #000; /* latar hitam pekat */
+  min-height: 80vh;
+  color: red; /* teks utama merah */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 50px;
+}
+
+.home-title {
+  font-size: 3rem; /* lebih besar */
+  font-weight: bold;
+  color: red;
+  margin-bottom: 200px;
+}
+
+.home-nav {
+  display: flex;
+  justify-content: center;
+  gap: 30px; /* jarak antar tombol lebih lega */
+  flex-wrap: wrap;
+}
+
+.home-link {
+  text-decoration: none;
+  padding: 18px 36px; /* tombol lebih besar */
+  border: 2px solid white;
+  border-radius: 12px;
+  font-weight: bold;
+  font-size: 1.2rem; /* teks tombol lebih besar */
+  color: white;
+  background-color: #111; /* hitam agak terang */
+  transition: all 0.3s ease;
+}
+
+.home-link:hover {
+  background-color: white;
+  color: red; /* efek hover merah */
+  transform: translateY(-5px) scale(1.05); /* lebih terasa */
+}
+
+.home-link.active {
+  background-color: red;
+  color: white;
+  border-color: red;
+}

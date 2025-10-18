@@ -1,0 +1,38 @@
+/* Tampilan utama navbar */
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000; /* hitam pekat */
+  padding: 30px 0;
+  gap: 30px;
+  border-bottom: 2px solid #fff; /* garis putih di bawah */
+}
+
+/* Gaya dasar link */
+.nav-link {
+  text-decoration: none;
+  color: transparent;
+  font-weight: 700;
+  font-size: 1.1rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+
+  /* Outline merah tanpa isi (hanya border teks) */
+  -webkit-text-stroke: 1px red;
+  transition: all 0.3s ease;
+}
+
+/* Efek hover: isi menjadi putih, outline hilang */
+.nav-link:hover {
+  color: rgb(202, 180, 180);
+  -webkit-text-stroke: 0;
+  transform: translateY(-2px);
+}
+
+/* Saat link aktif */
+.nav-link.active {
+  color: red;
+  -webkit-text-stroke: 0;
+  border-bottom: 2px solid red;
+}

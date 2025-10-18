@@ -1,0 +1,76 @@
+/* Contact.css */
+.contact-container {
+  background-color: #000; /* hitam pekat */
+  color: red;
+  min-height: 100vh;
+  padding: 60px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+
+.contact-card {
+  background-color: #111; /* abu gelap */
+  border: 2px solid white; /* border tegas */
+  border-radius: 20px;
+  padding: 40px;
+  width: 400px;
+  text-align: center;
+}
+
+.contact-card h2 {
+  margin-bottom: 20px;
+}
+
+.contact-card p {
+  margin-bottom: 30px;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  background-color: #111;
+  border: 2px solid white;
+  border-radius: 20px;
+  padding: 40px;
+  width: 400px;
+  gap: 15px;
+}
+
+.contact-form label {
+  color: white;
+  font-weight: bold;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 10px;
+  border-radius: 8px;
+  border: 2px solid red;
+  background-color: #000;
+  color: white;
+  font-size: 1rem;
+}
+
+.contact-form textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+.contact-form button {
+  padding: 12px;
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.contact-form button:hover {
+  background-color: white;
+  color: red;
+  transform: scale(1.05);
+}

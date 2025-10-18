@@ -1,0 +1,53 @@
+.dashboard {
+  background-color: #000000;
+  color: #000;
+  padding: 40px;
+  text-align: center;
+  min-height: 90vh;
+  font-family: "Inter", "Poppins", sans-serif; /* font modern dan ringan */
+}
+
+.dashboard-title {
+  font-size: 3rem;
+  font-weight: 500;
+  margin-bottom: 25px;
+  letter-spacing: 0.5px;
+  color: #ff0000;
+  border-bottom: 1px solid #d00;
+  display: inline-block;
+  padding-bottom: 6px;
+}
+
+/* Navigation dalam dashboard */
+.dashboard-nav {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  background-color: #000;
+  margin-bottom: 40px;
+}
+
+/* Link dasar */
+.dash-link {
+  text-decoration: none;
+  color: #ff0000;
+  opacity: 0.6;
+  font-size: 2rem;
+  font-weight: 500;
+  text-transform: capitalize;
+  border-bottom: 2px solid transparent;
+  transition: all 0.25s ease;
+}
+
+/* Hover: warna berubah lembut */
+.dash-link:hover {
+  opacity: 1;
+  border-bottom: 2px solid red;
+}
+
+/* Aktif: merah sederhana tanpa stroke */
+.dash-link.active {
+  color: red;
+  opacity: 1;
+  border-bottom: 2px solid red;
+}

@@ -1,0 +1,90 @@
+/* Profile.css */
+.profile-container {
+  background-color: #000; /* hitam pekat untuk seluruh halaman */
+  color: red; /* teks utama merah */
+  min-height: 100vh;
+  padding: 60px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  font-family: Arial, sans-serif;
+}
+
+.profile-card {
+  background-color: #111; /* abu gelap */
+  border: 2px solid white; /* border tegas putih */
+  border-radius: 20px;
+  padding: 40px;
+  width: 400px;
+  text-align: center;
+}
+
+.profile-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 3px solid red; /* border merah */
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+.profile-info {
+  font-size: 1.2rem;
+}
+
+.label {
+  font-weight: bold;
+  color: white; /* label putih agar jelas */
+  margin-bottom: 5px;
+}
+
+.value {
+  margin-bottom: 15px;
+}
+
+.profile-form {
+  display: flex;
+  flex-direction: column;
+  background-color: #111; /* abu gelap */
+  border: 2px solid white;
+  border-radius: 20px;
+  padding: 40px;
+  width: 400px;
+  gap: 15px;
+}
+
+.profile-form label {
+  color: white;
+  font-weight: bold;
+}
+
+.profile-form input {
+  padding: 12px;
+  border-radius: 8px;
+  border: 2px solid red; /* border merah */
+  background-color: #000; /* hitam pekat */
+  color: white;
+  font-size: 1rem;
+}
+
+.profile-form input::placeholder {
+  color: #ff6666; /* placeholder merah muda agar terlihat */
+}
+
+.profile-form button {
+  padding: 12px;
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.profile-form button:hover {
+  background-color: white;
+  color: red;
+  transform: scale(1.05);
+}
