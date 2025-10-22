@@ -5,7 +5,7 @@ import { Input } from "../components/ui/input";
 
 export default function Profile() {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-black text-red-600 p-6">
+    <div className="min-h-screen flex items-center justify-center text-red-600 p-6">
       <Card className="w-full max-w-md border border-red-700 bg-white text-red-700">
         <CardHeader className="border-b border-red-700 pb-4">
           <CardTitle className="text-2xl font-extrabold text-center uppercase">
